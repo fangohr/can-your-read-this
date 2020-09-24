@@ -19,4 +19,3 @@ def test_three_letters():
 def test_four_letters():
     assert s.scramble("read") in ["raed"]
     assert s.scramble("type") in ["tpye"]
-
