@@ -19,3 +19,7 @@ def test_three_letters():
 def test_four_letters():
     assert s.scramble("read") in ["raed"]
     assert s.scramble("type") in ["tpye"]
+
+
+def test_nonletters():
+    assert s.scramble("at! my? 'to' ...") in ["at! my? 'to' ..."]
